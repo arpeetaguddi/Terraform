@@ -1,10 +1,10 @@
 variable "this_key_name" {
-   default = "" 
+   default = "arpeeta" 
 
 }
 
 variable "this_ami" {
-   default = "ami-0eab37cfdc33e8e65" 
+   default = "ami-0b910d1016287a5e7 " 
 }
 
 
@@ -12,7 +12,7 @@ variable "This_instance_type" {
     default  = "t3.micro"
 }
 
-variable "This_vpc_security_group_ids" {default = "sg-0efc868be83f601ce"}
+variable "This_vpc_security_group_ids" {default = "sg-00c0c76b8f2d5a64a"}
 
 variable "this_count" {
     default = 4
